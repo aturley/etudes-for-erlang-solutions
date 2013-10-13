@@ -1,4 +1,3 @@
-DIRS = $(sort $(dir $(wildcard */)))
 SRCS = $(sort $(wildcard */*.erl))
 OBJS = $(patsubst %.erl,%.beam,$(SRCS))
 
